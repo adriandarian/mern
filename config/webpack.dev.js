@@ -3,7 +3,7 @@ const merge = require('webpack-merge');
 
 const commonConfig = require('./webpack.common');
 
-module.exports = mrege(commonConfig, {
+module.exports = merge(commonConfig, {
     devtool: 'eval-source-map',
     mode: 'development',
     entry: {
