@@ -20,10 +20,10 @@ import './styles/styles.scss';
 render((
   <Router>
     <App>
-<Switch>
- <Route exact path="/" component={Home} />
-        <Route path="/helloworld" component={HelloWorld} />
-        <Route component={NotFound} />
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route path="/helloworld" component={HelloWorld}/>
+        <Route component={NotFound}/>
       </Switch>
     </App>
   </Router>

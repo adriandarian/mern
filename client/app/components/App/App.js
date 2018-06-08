@@ -5,12 +5,13 @@ import Footer from '../Footer/Footer';
 
 const App = ({ children }) => (
   <div>
-  <Header />
-  <main>
-    {children}
-  </main>
+    <Header />
 
-  <Footer />
+    <main>
+      {children}
+    </main>
+
+    <Footer />
   </div>
 );
 

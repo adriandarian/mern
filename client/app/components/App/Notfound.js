@@ -1,7 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-const Notfound = () => (
+const NotFound = () => (
   <div>
     <h2>Page not found</h2>
 
