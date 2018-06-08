@@ -1,6 +1,10 @@
 # Compiled files
 dist/
 
+# Editor files
+.vscode/
+.eslintrc.json
+
 # Config file
 config/config.js
 
